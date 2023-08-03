@@ -1,4 +1,5 @@
 ##importing tkinter
+import os
 from tkinter import *
 import tkinter as tk
 from tkinter import messagebox
@@ -12,6 +13,7 @@ from PIL import ImageTk, Image
 top=tk.Tk()
 top.title("Online Purchasing")
 img =Image.open(r"resources\online-shopping-mobile-phone-min-2.jpg")
+
 bg = ImageTk.PhotoImage(img)
 top.geometry("1200x1200")
 
